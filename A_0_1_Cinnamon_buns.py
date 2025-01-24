@@ -2,6 +2,7 @@
 #Author: TEJA SUDHASHREE DEVAGUPTAPU
 #Date: 23-01-2025
 # A.0.1: Cinnamon buns
+
 regular_price = 35.00
 discounted_rate = 60
 number_of_kanekbulle_ordered = int(input("number of kanebulle purchased:"  ))
