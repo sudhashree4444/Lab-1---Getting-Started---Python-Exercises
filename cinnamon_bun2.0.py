@@ -3,7 +3,7 @@ day_old_cinnamon_bun_discount = 60.00
 number_of_cinnamon_bun_ordered = int(input("enter the number of cinnamon buns: " ))
 
 regular_price =  number_of_cinnamon_bun_ordered * regular_price
-discount_price = regular_price - day_old_cinnamon_bun_discount
+discount_price = regular_price - day_old_cinnamon_bun_discount/100
 final_price =    number_of_cinnamon_bun_ordered - discount_price
 
 print(f'regular price:  {regular_price:.2f}SEK')
